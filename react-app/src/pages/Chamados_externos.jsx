@@ -16,11 +16,11 @@ const Abertura_Chamado = () => {
             </S.TitleContainer>
             <S.CardContainer>
               <CabecalhoCartao/>
-              <Cartao name={"Fulano"} simb={"Fulano"} depart={"Comercial"} data={"28/02/2023"} email={"teste@teste.com"}/>
-              <Cartao name={"João Melão"} simb={"João Melão"} depart={"Tecnologia"} data={"11/04/2023"} email={"teste@teste.com"}/>
-              <Cartao name={"Ciclano"} simb={"Ciclano"} depart={"Operação"} data={"09/05/2023"} email={"teste@teste.com"}/>
-              <Cartao name={"Beltrano"} simb={"Beltrano"} depart={"Tecnologia"} data={"14/06/2023"} email={"teste@teste.com"}/>
-              <Cartao name={"Creusa"} simb={"Creusa"} depart={"Comercial"} data={"06/07/2023"} email={"teste@teste.com"}/>
+              <Cartao name={"Fulano"} email={"teste@teste.com"} depart={"Comercial"} numb={"28/02/2023"} estado={"teste@teste.com"}/>
+              <Cartao name={"João Melão"} email={"teste@teste.com"} depart={"Tecnologia"} numb={"11/04/2023"} estado={"teste@teste.com"}/>
+              <Cartao name={"Ciclano"} email={"teste@teste.com"} depart={"Operação"} numb={"09/05/2023"} estado={"teste@teste.com"}/>
+              <Cartao name={"Beltrano"} email={"teste@teste.com"} depart={"Tecnologia"} numb={"14/06/2023"} estado={"teste@teste.com"}/>
+              <Cartao name={"Creusa"} email={"teste@teste.com"} depart={"Comercial"} numb={"06/07/2023"} estado={"teste@teste.com"}/>
             </S.CardContainer>
           </S.MainContainer>
       </>

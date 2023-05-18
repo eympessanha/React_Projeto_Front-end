@@ -5,7 +5,7 @@ const Menu = () => (
     <MeuNav>
         <Link to="/">Home</Link>
         <Link to="/sobre">Sobre</Link>
-        <Link to="/chamado">Chamados Externos</Link>
+        <Link to="/Chamado_externo">Chamados Externos</Link>
         <Link to="/dashboard">Dashboard</Link>
     </MeuNav>
 );
