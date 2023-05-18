@@ -5,10 +5,9 @@ function App() {
   return (
     <div className="App">
       <Menu />
-    
-        <img src="logoas3.png"/>
-        
-
+    <header className="App-header">
+        <img src="logoas3.png"/>                
+     </header>
     </div>
   );
 }
