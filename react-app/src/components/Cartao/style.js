@@ -1,30 +1,72 @@
 import styled from "styled-components";
+import { tabletSize } from "../../utils";
 
-const Container = styled.div`
-    border-radius: 5px;
-    border: solid 1px black;
+export const ContainerCabecalho = styled.div`
+  display: flex;
+  flex-direction: column;
+  column-gap: 1em;
+  margin: 10px;
 
-    display: flex;
+  @media screen and (min-width: ${tabletSize}) {
     flex-direction: row;
-    column-gap: 1em;
-
-    margin: 5px;
+  }
 `;
 
-const Simbolo = styled.span`
-    font-weight: bolder;
+export const ItemCabecalho = styled.div`
+  background-color: #00B650;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  @media screen and (min-width: ${tabletSize}) {
+    flex-direction: row;
+  }
 `;
 
-const Descricao = styled.span`
-    font-style: italic;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    height: 1.5em;
+export const Simbolo = styled.span`
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  font-size: x-large;
+  width: 200px;
+  height: 100px;
+
+  @media screen and (min-width: ${tabletSize}) {
+    font-size: medium;
+  }
 `;
 
-const Momento = styled.span`
-    font-family: monospace;
+export const Descricao = styled.span`
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  width: 200px;
+  background-color: white;
+  height: 100px;
+  border-radius: 10px;
+
+  @media screen and (min-width: ${tabletSize}) {
+    font-size: medium;
+  }
 `;
 
-export { Container, Simbolo, Descricao, Momento };
+export const Momento = styled.span`
+  font-family: system-ui;
+`;
+
+export const ContainerItens = styled.div`
+  display: flex;
+  flex-direction: column;
+  column-gap: 1em;
+  margin: 10px;
+
+  @media screen and (min-width: ${tabletSize}) {
+    flex-direction: row;
+  }
+`;
