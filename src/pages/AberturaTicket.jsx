@@ -22,7 +22,7 @@ const Campo = styled.input`
 `;
 
 const Descrição = styled.textarea`
-    height: 200px;
+    height: 140px;
     width: 96%;
     resize: none;
     margin: 1%;
