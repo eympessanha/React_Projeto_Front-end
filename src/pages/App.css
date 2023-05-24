@@ -36,6 +36,7 @@ input {
   color: gray;
 }
 
+
 button {
   background-color: coral;
   margin: 1%;
@@ -44,6 +45,10 @@ button {
   border-radius: 10px;
   border-color:brown;
   color: white;
+}
+
+button:hover {
+  background-color: rgba(255, 127, 80, 0.641);
 }
 
 a {

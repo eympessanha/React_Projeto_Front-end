@@ -7,6 +7,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Sobre from './pages/Sobre';
 import Login from './pages/Login';
 import Cadastro from './pages/Cadastro';
+import AberturaTicket from './pages/AberturaTicket';
 
 const rotas = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const rotas = createBrowserRouter([
   {
     path: "cadastro",
     element: <Cadastro />
+  },
+  {
+    path: "AberturaTicket",
+    element: <AberturaTicket />
   }
 ])
 
