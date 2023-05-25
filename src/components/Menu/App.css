@@ -1,0 +1,39 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-list {
+  list-style:none;
+  padding: 30px;
+  background-color: #155077;
+}
+.nav-list li{
+    display: inline-block;
+    padding: 10px;
+}
+.nav-list  li a { 
+  color: coral ;
+  padding: 10px;
+  display: inline-block;
+  text-decoration: none;
+  display: inline;
+  transition: background .4s;
+
+}
+a:hover {
+  background-color: rgb(8, 31, 233);
+  opacity: 0.7;
+}
+.App-header {
+  background: #155077
+  padding 50px;
+}
+.logo {
+  background-color: #155077;
+}
+.nav-list ul li a{
+  float: right;
+
+}
