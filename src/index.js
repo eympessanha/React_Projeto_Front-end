@@ -4,17 +4,15 @@ import './index.css';
 import App from './pages/App';
 import reportWebVitals from './reportWebVitals';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-import Login from './pages/login';
+
 
 const rotas = createBrowserRouter([
   {
     path: "/",
     element: <App />
   },
-  {
-    path: "sobre",
-    element: <Login />
-  }
+  
+  
 ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
