@@ -7,6 +7,8 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Login from './pages/Login';
 import Cadastro from './pages/Cadastro';
 import Recuperar from './pages/Recuperar';
+import Chamados_externo from './pages/Chamados_externos';
+
 
 const rotas = createBrowserRouter([
   {
@@ -24,6 +26,10 @@ const rotas = createBrowserRouter([
   {
     path: "recuperar",
     element: <Recuperar />
+  },
+  {
+    path: "Chamado_externo",
+    element: <Chamados_externo/>
   }
 ])
 
