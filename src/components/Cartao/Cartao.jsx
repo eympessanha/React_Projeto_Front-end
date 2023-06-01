@@ -1,19 +1,18 @@
-import { Container, Descricao, Momento, Simbolo } from "./style";
+import * as S from "./style";
 
-const Cartao = ( props ) => (
-    <Container>
-        <Simbolo>{ props.simb }</Simbolo>
-        <Descricao>Lorem ipsum dolor sit, 
-            amet consectetur adipisicing elit. 
-            Doloribus voluptas numquam possimus 
-            obcaecati impedit suscipit illo 
-            doloremque enim laudantium quaerat 
-            pariatur amet dolores harum eveniet 
-            voluptate dolorum, ratione 
-            ipsa blanditiis!
-        </Descricao>
-        <Momento>{ props.data }</Momento>
-    </Container>
+const Cartao = (props) => (
+  <>
+      <S.ContainerItens>
+      <S.Descricao>{props.name}</S.Descricao>
+      <S.Descricao>{props.email}</S.Descricao>
+      <S.Descricao>{props.numb}</S.Descricao>
+      <S.Descricao>{props.depart}</S.Descricao>
+      <S.Descricao>{props.estado}</S.Descricao>
+      <S.Descricao>{props.prior}</S.Descricao>
+      <S.Descricao>{props.atrib}</S.Descricao>
+      <S.Descricao>{props.criado}</S.Descricao>
+      </S.ContainerItens>
+  </>
 );
 
 export default Cartao;
