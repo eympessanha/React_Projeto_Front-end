@@ -8,6 +8,8 @@ const Abertura_Chamado = () => {
     return(
         <>
           <Menu />
+          <div className="App-logo">
+          <img src="logoas3.png"/></div>               
           <S.MainContainer>
             <S.TitleContainer>
               <h1>Chamado externos:</h1>
