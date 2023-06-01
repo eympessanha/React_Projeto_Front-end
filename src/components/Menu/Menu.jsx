@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { MeuNav } from "./style";
 import "./App.css"
+
 const Menu = () => (
     <MeuNav className="menu">
         <Link to="/">Home</Link>
@@ -10,4 +11,5 @@ const Menu = () => (
     </MeuNav>
 )
 export default Menu;
+
 
