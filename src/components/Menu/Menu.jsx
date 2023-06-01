@@ -7,8 +7,7 @@ const Menu = () => (
         <Link to="/login">Login</Link>
         <Link to="/AberturaTicket">Abrir chamado</Link>
         <Link to="/Chamado_externo">Chamados Externos</Link>
-
     </MeuNav>
-);
+)
 export default Menu;
 

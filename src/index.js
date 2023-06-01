@@ -27,12 +27,18 @@ const rotas = createBrowserRouter([
   },
   {
     path: "AberturaTicket",
+
     element: <AberturaTicket />
   },
 
     { path: "recuperar",
+    element: <AberturaTicket />},
+  {
+    path: "recuperar",
+
     element: <Recuperar />
   },
+
   {
     path: "Chamado_externo",
     element: <Chamados_externo/>
