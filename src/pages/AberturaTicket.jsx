@@ -47,7 +47,7 @@ const AberturaTicket = () => (
     </h1>
             <Pricipal><Paragrafo>Solicitante</Paragrafo><Campo type="text" id="solicitante" placeholder="Ex: José Manuel"/>
             <Paragrafo>Telefone</Paragrafo><Campo type="number" id="telefone" placeholder="Ex: (21)97729-7015" />
-            <Paragrafo>Departamento</Paragrafo><Campo type="text" id="departamento" placeholder="Ex: Marketing"/>
+            <Paragrafo>Departamento</Paragrafo><Campo type="text" id="departamento" placeholder="Ex: TI Suporte Local"/>
             <Paragrafo>Tipo de trabalho</Paragrafo><Campo type="text" id="tipotrabalho" placeholder="Ex: Troca de equipamento"/>
             <Paragrafo>Descrição</Paragrafo><Descrição name="descrição" id="descrição" cols="30" rows="20" placeholder="Diga qdual é o seu problema"></Descrição>
             <Botão>Enviar</Botão></Pricipal>
