@@ -2,20 +2,14 @@ import { Link } from "react-router-dom";
 import { MeuNav } from "./style";
 import "./App.css"
 import logo from "./logoas3.png"
+const Menu = () => (
+    <MeuNav>
+        <Link to="/">Home</Link>
+        <Link to="/login">Login</Link>
+        <Link to="/AberturaTicket">Abrir chamado</Link>
+        <Link to="/Chamado_externo">Chamados Externos</Link>
 
-const Menu = () => {
-  return (
-    <nav className="menu"> 
-      <ul>
-        <li><a href="#"><img src="{logo}" alt="logo"/></a></li>
-        <li><a href="/">Home</a></li>
-        <li><a href="#">Dashboard</a></li>
-        <li><a href="#">Chamados</a></li>
-        <li><a href="login">Login</a></li>
-      </ul>
-    </nav>
-  );
-};
-
+    </MeuNav>
+);
 export default Menu;
 
