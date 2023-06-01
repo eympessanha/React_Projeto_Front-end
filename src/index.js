@@ -11,6 +11,7 @@ import Recuperar from './pages/Recuperar';
 import Chamados_externo from './pages/Chamados_externos';
 
 
+
 const rotas = createBrowserRouter([
   {
     path: "/",
@@ -26,14 +27,22 @@ const rotas = createBrowserRouter([
   },
   {
     path: "AberturaTicket",
+
+    element: <AberturaTicket />
+  },
+
+    { path: "recuperar",
     element: <AberturaTicket />},
   {
     path: "recuperar",
+
     element: <Recuperar />
   },
+
   {
     path: "Chamado_externo",
     element: <Chamados_externo/>
+
   }
 ])
 
