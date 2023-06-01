@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 const MeuNav = styled.nav`
-    background-color: #1B6090;
-    color: white;
+    align-items = center;
     display: flex;
+    background-color:#1B6090;
     flex-direction: row;
     gap: 2em;
     a {

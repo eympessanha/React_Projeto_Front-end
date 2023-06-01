@@ -3,26 +3,24 @@ import './App.css';
 
 
 const Cadastro = () => (
-    <><div className="App">
+    <>
     <Menu />
-    </div>
-    <div className="App-logo">
+     <div className="App-logo">
     <img src="logoas3.png"/></div>
     <div className="App-header">
-    <h1>
-        Cadastro
-    </h1>
-    <input type="text" value="   Nome"></input>
-    <input type="text" value="   Sobrenome"></input>
-    <input type="date" value="   dd/mm/aa"></input>
-    <input type="email" value="   Email"></input>
-    <input type="text" value="   Senha"></input>
+    <div className="App-cadastro">
+    <h1>Cadastro</h1>
+    <input type="text" name='nome' placeholder='Nome' autoFocus />
+    <input type="text" name='sobrenome' placeholder='Sobrenome' autoFocus />
+    <input type="date" name="data" placeholder='Nascimento' autoFocus/>
+    <input type="email" name='nome' placeholder='Email' autoFocus />
+    <input type="password" name='senha' placeholder='Senha (8 caracteres mínimos)' autoFocus />
     <label>
     <input type="checkbox" value="Aceito" className="input-manter"></input> 
     Aceito os Termos de Uso</label>
-        <button>Concluir</button>
+    <input type="submit" value="Concluir" id='b-entrar' className="input-submit"/>
         </div>
-
+        </div>
     </>
 );
 
