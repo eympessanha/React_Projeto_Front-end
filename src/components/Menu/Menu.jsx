@@ -1,9 +1,8 @@
 import { Link } from "react-router-dom";
 import { MeuNav } from "./style";
 import "./App.css"
-import logo from "./logoas3.png"
 const Menu = () => (
-    <MeuNav>
+    <MeuNav className="menu">
         <Link to="/">Home</Link>
         <Link to="/login">Login</Link>
         <Link to="/AberturaTicket">Abrir chamado</Link>
