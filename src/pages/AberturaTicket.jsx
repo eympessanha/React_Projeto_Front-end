@@ -40,7 +40,8 @@ const AberturaTicket = () => (
     <Menu />
     </div>
     <div className="App-logo">
-    <img src="logoas3.png"/></div>
+    <img src="logoas3.png" alt="" /> 
+    </div>
     <div className="App-header">
     <h1>
         Abrir chamado

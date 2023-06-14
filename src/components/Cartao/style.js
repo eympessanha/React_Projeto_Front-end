@@ -26,16 +26,6 @@ export const ItemCabecalho = styled.div`
   }
 `;
 
-const Container = styled.div`
-    border-radius: 5px;
-    border: solid 1px black;
-
-    display: flex;
-    flex-direction: row;
-    column-gap: 1em;
-
-    margin: 5px;
-`;
 
 export const Simbolo = styled.span`
   font-weight: bolder;
