@@ -1,14 +1,24 @@
 const Dashboardstyle = {
     h1: {
-
-        color: '#21130d',
-        width: '650px',
-        textAlign: 'center',
+      alignItems: 'center',
+      color: '#21130d',
+      width: '1650px',
     },
     div: {
-        width: '1000px',
-        height: '1000px',
-        alignItems: "center",
-    }
-}
-export default Dashboardstyle;
+      display: 'flex',
+      height: '100 vh',
+      width: '70vw',
+      margin: '5%',
+    },
+    div2: {  
+      height: '100 vh',
+    },
+    body: {
+      backgroundColor: '#0f476d',
+      height: '100vh',
+      width: '100vw',
+    },
+  };
+  
+  export default Dashboardstyle;
+  

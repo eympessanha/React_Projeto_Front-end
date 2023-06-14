@@ -5,7 +5,7 @@ const Recuperar = () => (
     <>
     <Menu />
     <div className="App-logo">
-    <img src="logoas3.png"/></div>  
+    <img src="logoas3.png" alt=""/></div>  
     <div className="App-header">
     <div className="App-recuperar">
     <h1>Recupere sua senha</h1>

@@ -9,12 +9,7 @@ const Menu = () => (
         <Link to="/AberturaTicket">Abrir chamado</Link>
         <Link to="/Chamado_externo">Chamados Externos</Link>
         <Link to="/Chamados_internos">Chamados Internos</Link>
-<<<<<<< HEAD
-        <Link to="/AberturaTicket">Abrir chamado</Link>
-        <Link to="/Chamado_externo">Chamados Externos</Link>
         <Link to="/Dashboard">Dashboard</Link>
-=======
->>>>>>> main
     </MeuNav>
 )
 export default Menu;

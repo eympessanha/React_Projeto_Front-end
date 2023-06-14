@@ -6,7 +6,7 @@ const Login = () => (
     <>
     <Menu />
     <div className="App-logo">
-    <img src="logoas3.png"/></div>  
+    <img src="logoas3.png" alt=""/></div>  
     <div className="App-header">
     <div className="App-login">
     <h1>Login</h1>

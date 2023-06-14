@@ -51,39 +51,39 @@ function App(){
       </section>
       <section className='fundo_janela'>
       <div className="janela">
-  <img src="logoas3.png" alt="Imagem 1" />
-  <p className='janela_nome'>Qual tela fez</p>
-  <p className='janela_nome'>Nome</p>
+  <img src="https://media.discordapp.net/attachments/1083356948407263245/1118651071104041091/48db5e08-a499-4ab9-958e-19b3303c34ca.png?width=562&height=671" alt="Imagem 1" />
+  <p className='janela_nome'>Login,Cadastro,Recuperar senha</p>
+  <p className='janela_nome'>Esther</p>
 </div>
 <div className="janela">
-  <img src="logoas3.png" alt="Imagem 1" />
-  <p className='janela_nome'>Qual tela fez</p>
-  <p className='janela_nome'>Nome</p>
+  <img src="https://media.discordapp.net/attachments/1083356948407263245/1118588509947699302/Screenshot_20230614-140353_WhatsApp.jpg?width=669&height=671" alt="Imagem 1" />
+  <p className='janela_nome'>Chamado externo</p>
+  <p className='janela_nome'>Vanessa</p>
 </div>
 <div className="janela">
-  <img src="logoas3.png" alt="Imagem 1" />
-  <p className='janela_nome'>Qual tela fez</p>
-  <p className='janela_nome'>Nome</p>
+  <img src="https://media.discordapp.net/attachments/1083356948407263245/1118683117943799838/IMG_7867.jpg?width=503&height=671" alt="Imagem 1" />
+  <p className='janela_nome'>Home</p>
+  <p className='janela_nome'>Hugo</p>
 </div>
 <div className="janela">
-  <img src="logoas3.png" alt="Imagem 1" />
-  <p className='janela_nome'>Qual tela fez</p>
-  <p className='janela_nome'>Nome</p>
+  <img src="https://media.discordapp.net/attachments/1083356948407263245/1118682628825030706/image.png" alt="Imagem 1" />
+  <p className='janela_nome'>Dashboard</p>
+  <p className='janela_nome'>Matheus</p>
 </div>
 <div className="janela">
-  <img src="logoas3.png" alt="Imagem 1" />
-  <p className='janela_nome'>Qual tela fez</p>
-  <p className='janela_nome'>Nome</p>
+  <img src="https://media.discordapp.net/attachments/1083356948407263245/1118686482866126869/IMG_7248.png?width=678&height=671" alt="Imagem 1" />
+  <p className='janela_nome'>Abertura de chamado</p>
+  <p className='janela_nome'>Bruno</p>
 </div>
 <div className="janela">
-  <img src="logoas3.png" alt="Imagem 1" />
-  <p className='janela_nome'>Qual tela fez</p>
-  <p className='janela_nome'>Nome</p>
+  <img src="https://media.discordapp.net/attachments/1083356948407263245/1118668140621070416/IMG_7246.png?width=517&height=671" alt="Imagem 1" />
+  <p className='janela_nome'>Chamado Interno</p>
+  <p className='janela_nome'>Guilherme</p>
 </div>
 <div className="janela">
-  <img src="logoas3.png" alt="Imagem 1" />
-  <p className='janela_nome'>Qual tela fez</p>
-  <p className='janela_nome'>Nome</p>
+  <img src="https://media.discordapp.net/attachments/1083356948407263245/1118675151639298119/IMG_7440.jpg" alt="Imagem 1" />
+  <p className='janela_nome'>Abertura de Chamado</p>
+  <p className='janela_nome'>Bia</p>
 </div>
 
     

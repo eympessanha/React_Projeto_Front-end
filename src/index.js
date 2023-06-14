@@ -35,14 +35,6 @@ const rotas = createBrowserRouter([
     element: <Recuperar/>
   },
   {
-    element: <AberturaTicket />},
-  {
-    path: "recuperar",
-
-    element: <Recuperar />
-  },
-
-  {
     path: "Chamado_externo",
     element: <ChamadosExterno/>
 
