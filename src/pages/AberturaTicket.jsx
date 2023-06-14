@@ -36,9 +36,9 @@ const Botão = styled.button`
 `;
 
 const AberturaTicket = () => (
-    <><div className="App">
+    <>
     <Menu />
-    </div>
+    
     <div className="App-logo">
     <img src="logoas3.png"/></div>
     <div className="App-header">
