@@ -10,7 +10,7 @@ const Abertura_Chamado = () => {
         <>
           <Menu />
           <div className="App-logo">
-          <img src="logoas3.png"/></div>
+          <img src="logoas3.png" alt=""/></div>
           <div className="chamados">
           <S.MainContainer>
             <S.TitleContainer>

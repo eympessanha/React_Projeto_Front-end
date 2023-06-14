@@ -6,7 +6,7 @@ const Cadastro = () => (
     <>
     <Menu />
      <div className="App-logo">
-    <img src="logoas3.png"/></div>
+    <img src="logoas3.png" alt=""/></div>
     <div className="App-header">
     <div className="App-cadastro">
     <h1>Cadastro</h1>
