@@ -7,6 +7,13 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Sobre from './pages/Sobre';
 import Login from './pages/Login';
 import Cadastro from './pages/Cadastro';
+import AberturaTicket from './pages/AberturaTicket';
+import Recuperar from './pages/Recuperar';
+import Chamados_externo from './pages/Chamados_externos';
+import Chamados_internos from './pages/Chamados_internos';
+
+
+
 
 const rotas = createBrowserRouter([
   {
@@ -24,6 +31,33 @@ const rotas = createBrowserRouter([
   {
     path: "cadastro",
     element: <Cadastro />
+
+  },
+  {
+    path: "AberturaTicket",
+
+    element: <AberturaTicket />
+  },
+
+    { path: "recuperar",
+    element: <AberturaTicket />
+  },
+  {
+    path: "recuperar",
+
+    element: <Recuperar />
+  },
+
+  {
+    path: "Chamado_externo",
+    element: <Chamados_externo/>
+
+  },
+  {
+    path: "Chamados_internos",
+    element: <Chamados_internos/>
+
+
   }
 ])
 
