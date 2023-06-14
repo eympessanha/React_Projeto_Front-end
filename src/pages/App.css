@@ -168,6 +168,13 @@
   margin-bottom: 12px;
   
 }
+
+.chamados {
+  background-color: #155077;
+  text-align: center;
+  align-items: center;
+}
+
 .App {
   
   text-align: center;
@@ -187,6 +194,7 @@ label {
 h1 {
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: lighter;
+  color: white;
 }
 
 .input-manter {
@@ -312,7 +320,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: top;
-  height: 20vmin;
+  height: 15vmin;
   pointer-events: none;
 }
 

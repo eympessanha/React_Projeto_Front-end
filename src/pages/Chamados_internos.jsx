@@ -2,12 +2,16 @@ import Menu from "../components/Menu/Menu";
 import Cartao from "../components/Cartao/Cartao";
 import * as S from "./style";
 import CabecalhoCartao from "../components/Cartao/CabecalhoCartao";
+import './App.css';
 
 const Abertura_Chamado = () => {
 
     return(
         <>
           <Menu />
+          <div className="App-logo">
+          <img src="logoas3.png"/></div>
+          <div className="chamados">
           <S.MainContainer>
             <S.TitleContainer>
               <h1>Chamado internos:</h1>
@@ -21,6 +25,7 @@ const Abertura_Chamado = () => {
               <Cartao name={"Barbara"} email={"teste@teste.com"} depart={"Comercial"} numb={"09/12/2022"} estado={"Resolvido"} prior={"Baixo"} atrib={"Carlos"} criado={"Pedro"}/>
             </S.CardContainer>
           </S.MainContainer>
+          </div>
       </>
       );
 }

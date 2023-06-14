@@ -2,15 +2,19 @@ import Menu from "../components/Menu/Menu";
 import Cartao from "../components/Cartao/Cartao";
 import * as S from "./style";
 import CabecalhoCartao from "../components/Cartao/CabecalhoCartao";
+import './App.css';
 
 const Abertura_Chamado = () => {
 
     return(
         <>
           <Menu />
+          <div className="App-logo">
+          <img src="logoas3.png"/></div>
+          <div className="chamados">
           <S.MainContainer>
             <S.TitleContainer>
-              <h1>Chamado externos:</h1>
+              <h1>Chamado externos</h1>
             </S.TitleContainer>
             <S.CardContainer>
               <CabecalhoCartao/>
@@ -21,6 +25,7 @@ const Abertura_Chamado = () => {
               <Cartao name={"Creusa"} email={"teste@teste.com"} depart={"Comercial"} numb={"06/07/2023"} estado={"Pausado"} prior={"Baixo"} atrib={"Carolina"} criado={"Fernanda"}/>
             </S.CardContainer>
           </S.MainContainer>
+          </div>
       </>
       );
 }
