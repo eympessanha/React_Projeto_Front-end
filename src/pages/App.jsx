@@ -48,6 +48,44 @@ function App(){
       </div>
       </div>
       </div>
+      </section>
+      <section className='fundo_janela'>
+      <div className="janela">
+  <img src="logoas3.png" alt="Imagem 1" />
+  <p className='janela_nome'>Qual tela fez</p>
+  <p className='janela_nome'>Nome</p>
+</div>
+<div className="janela">
+  <img src="logoas3.png" alt="Imagem 1" />
+  <p className='janela_nome'>Qual tela fez</p>
+  <p className='janela_nome'>Nome</p>
+</div>
+<div className="janela">
+  <img src="logoas3.png" alt="Imagem 1" />
+  <p className='janela_nome'>Qual tela fez</p>
+  <p className='janela_nome'>Nome</p>
+</div>
+<div className="janela">
+  <img src="logoas3.png" alt="Imagem 1" />
+  <p className='janela_nome'>Qual tela fez</p>
+  <p className='janela_nome'>Nome</p>
+</div>
+<div className="janela">
+  <img src="logoas3.png" alt="Imagem 1" />
+  <p className='janela_nome'>Qual tela fez</p>
+  <p className='janela_nome'>Nome</p>
+</div>
+<div className="janela">
+  <img src="logoas3.png" alt="Imagem 1" />
+  <p className='janela_nome'>Qual tela fez</p>
+  <p className='janela_nome'>Nome</p>
+</div>
+<div className="janela">
+  <img src="logoas3.png" alt="Imagem 1" />
+  <p className='janela_nome'>Qual tela fez</p>
+  <p className='janela_nome'>Nome</p>
+</div>
+
     
   
 </section>
