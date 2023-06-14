@@ -9,6 +9,8 @@ import Cadastro from './pages/Cadastro';
 import AberturaTicket from './pages/AberturaTicket';
 import Recuperar from './pages/Recuperar';
 import Chamados_externo from './pages/Chamados_externos';
+import Chamados_internos from './pages/Chamados_internos';
+
 
 
 
@@ -32,6 +34,9 @@ const rotas = createBrowserRouter([
   },
 
     { path: "recuperar",
+    element: <AberturaTicket />
+  },
+  {
     element: <AberturaTicket />},
   {
     path: "recuperar",
@@ -42,6 +47,11 @@ const rotas = createBrowserRouter([
   {
     path: "Chamado_externo",
     element: <Chamados_externo/>
+
+  },
+  {
+    path: "Chamados_internos",
+    element: <Chamados_internos/>
 
   }
 ])
